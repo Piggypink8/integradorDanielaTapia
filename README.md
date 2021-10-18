@@ -6,3 +6,5 @@ En esta ocasión, pusimos a prueba nuestras habilidades en:
 ~ CSS
 ~ BOOTSTRAP
 ~ JAVASCRIPT
+
+Vista previa a las páginas(No incluyen link entre cada una, hay que poner el código): 
