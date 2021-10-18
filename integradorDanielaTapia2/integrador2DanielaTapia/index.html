@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integrador DanielaTapia</title>
+
+  <!--- LINK BOOTSTRAP --->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!--- LINK MONTSERRAT FONT--->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <!--- LINK RUBIK FONT --->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <!--- LINK STYLES --->
+  <link rel="stylesheet" href="styles/index.css">
+  <!--- LINK BEBAS NEUE FONT --->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--- NAVBAR --->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand col-lg-6 href=" #">
+        <img src="styles/codoacodo.png" alt="" width="120" height="70" class="d-inline-block align-text">
+        Conf Bs As
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse primary" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/integradorDanielaTapia/index.html">Conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/integradorDanielaTapia/index.html">Oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/integradorDanielaTapia/index.html">Cronograma</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/integradorDanielaTapia/index.html">Conviértete en orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: green;">Comprar tickets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--- CARDS CONTAINER --->
+
+  <main>
+
+    <div class="card_container">
+      <h4>Student Card</h4>
+      <div class="card_body-info">
+        <h1 class="body_number">-80<small>%</small></h1>
+        <div class="body_list">
+          <li>Con este cupón accedes al descuento en la categoría Student</li>
+          <li>*Presenta la documentación indicada</li>
+        </div>
+        <button type="button" class="card_button"><a href="#pricing">Comprar tickets</a></button>
+      </div>
+    </div>
+
+    <div class="card_container">
+      <h4>Trainee Card</h4>
+      <div class="card_body-info">
+        <h1 class="body_number">-50<small>%</small></h1>
+        <div class="body_list">
+          <li>Con este cupón accedes al descuento en la categoría Trainee</li>
+          <li>*Presenta la documentación indicada</li>
+        </div>
+        <button type="button" class="card_button"><a href="#pricing">Comprar tickets</a></button>
+      </div>
+    </div>
+
+    <div class="card_container">
+      <h4>Junior Card</h4>
+      <div class="card_body-info">
+        <h1 class="body_number">-30<small>%</small></h1>
+        <div class="body_list">
+          <li>Con este cupón accedes al descuento en la categoría Junior</li>
+          <li>*Presenta la documentación indicada</li>
+        </div>
+        <button class="card_button"><a href="#pricing">Comprar tickets</a></button>
+      </div>
+    </div>
+
+  </main>
+
+  <!--- FORM CONTAINER --->
+
+  <section class="form_container">
+
+    <div class="form_title" id="pricing">
+      <h1>Comprá tus tickets</h1>
+      <p>Ingresa tus datos en el siguiente formulario.</p>
+    </div>
+    <div class="card_ticket-container">
+      <div class="card_ticket">
+        <img src="styles/ticket.png" alt="Foto">
+        <li>200<small>$</small></li>
+      </div>
+    </div>
+    <div class="form_body-container">
+      <div class="form_body">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="name" placeholder="Nombre" required>
+          </div>
+          <div class="col-md-6">
+            <label for="surname" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="surname" placeholder="Apellido" required>
+          </div>
+          <div class="col-12">
+            <label for="email" class="form-label">Correo</label>
+            <input type="text" class="form-control" id="email" placeholder="Correo" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="tickets" class="form-label">Tickets</label>
+            <input type="number" class="form-control" id="tickets" placeholder="Cantidad de tickets" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="category" class="form-label">Categoria</label>
+            <select id="category" class="form-select">
+              <option selected id="default" hidden>Seleccione una opción</option>
+              <option id="student">Student</option>
+              <option id="trainee">Trainee</option>
+              <option id="junior">Junior</option>
+            </select>
+          </div>
+
+          <!--- JAVASCRIPT TOTAL SUMMARY --->
+
+          <p class="form_summary" id="total-summary"></p>
+
+          <div class="buttons_container">
+            <button class="btn" type="button" value="summary" id="summary" onclick="totalSummary()">Resumen</button>
+            <button class="btn" type="button" onclick="deleteSummary()" id="delete">Borrar</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+  </section>
+
+  <!--- FOOTER CONTAINER --->
+
+  <footer>
+    <ul>
+      <li class="nav-item"><a href="#" class="nav-link px-2">Preguntas frecuentes</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2">Contáctanos</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2">Prensa</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2">Conferencias</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2">Términos y condiciones</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2">Privacidad</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2">Estudiantes</a></li>
+    </ul>
+  </footer>
+
+
+
+  <!--- LINK JAVASCRIPT --->
+  <script src="js/index.js"></script>
+
+  <!---  LINK BOOTSTRAP JAVASCRIPT --->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

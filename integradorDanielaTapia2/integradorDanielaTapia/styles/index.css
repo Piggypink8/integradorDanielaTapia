@@ -1,0 +1,59 @@
+.carousel-caption {
+bottom: 25%;
+}
+
+.btn { 
+    margin: 2px;
+}
+
+.oradores { 
+text-align: center;
+}
+
+.oradores p { 
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card-section  { 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card { 
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 12px;
+}
+
+.card h1 { 
+    font-size: 30px;
+}
+
+.card-body { 
+    text-align: start;
+}
+
+.form-orador { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.nav { 
+    background-color: rgb(26, 80, 97);
+    justify-content: center;
+    padding: 25px; 
+} 
+
+.nav-link { 
+    margin: 5px;
+    color: white;
+}
+
+.nav-link:hover {
+    color: silver;
+}
