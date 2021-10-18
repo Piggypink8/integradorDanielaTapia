@@ -8,3 +8,7 @@ En esta ocasión, pusimos a prueba nuestras habilidades en:
 ~ JAVASCRIPT
 
 Vista previa a las páginas(No incluyen link entre cada una, hay que poner el código): 
+
+conferenciayoradores.netlify.app
+
+comprartickets.netlify.app
