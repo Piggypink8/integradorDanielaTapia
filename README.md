@@ -7,7 +7,7 @@ En esta ocasión, pusimos a prueba nuestras habilidades en:
 ~ BOOTSTRAP
 ~ JAVASCRIPT
 
-Vista previa a las páginas(No incluyen link entre cada una, hay que poner el código): 
+Vista previa a las páginas(Descargando la carpeta entera se pueden ver los linkeamientos entre ambas páginas ): 
 
 conferenciayoradores.netlify.app
 
